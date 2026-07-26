@@ -1,0 +1,53 @@
+# Intended to track:
+#   - Notebooks/          (notebooks + data used by them)
+#   - environment.yml / environment-4.yml
+#   - .gitignore
+# Everything below is common junk that should not be pushed.
+
+# Jupyter checkpoints (including under Notebooks/)
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+
+# Test / coverage / type checkers
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Notebook export / temp clutter
+*.nbconvert.ipynb
+~$*
