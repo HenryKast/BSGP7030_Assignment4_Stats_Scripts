@@ -57,7 +57,11 @@ VIQ ~ Gender and adjusted VIQ agree.
 ### Where they differ
 FSIQ vs PIQ - Manual runs an unpaired + paired, + wilcoxon, AI runs paired only
 IQ OLS - AI ran many more comparison between the different types of IQ than manual
+
 Wages - Manual uses log10(WAGE) + EDUCATION*SEX, AI uses WAGE ~ EDUCATION
 Extras - AI does a bayesian comparison
+
+## Citations
+The manual portion of this reposotiory was created following the SciPy guide: https://scipy-lectures.org/packages/statistics/index.html
 
 
